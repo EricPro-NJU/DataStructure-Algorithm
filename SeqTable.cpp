@@ -1,5 +1,5 @@
 //
-// Created by gerui on 2021/7/10.
+// Created by RUIPENG on 2021/7/10.
 //
 
 #include "SeqTable.h"
