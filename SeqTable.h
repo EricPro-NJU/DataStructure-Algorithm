@@ -9,12 +9,12 @@
 #ifndef NJU_REVIEW_SEQTABLE_H
 #define NJU_REVIEW_SEQTABLE_H
 
-// Configurations
-#define defaultSize 100
-typedef int T;
+
+
 
 #include <iostream>
 #include <cstdlib>
+#include "commons.h"
 using namespace std;
 
 

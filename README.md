@@ -9,7 +9,7 @@
 1. 顺序表SeqTable
 2. 单链表LinkList
 3. 双向循环链表DoubleLinkList
-4. 栈Stack
+4. （链式）栈LinkStack
 5. 队列Queue
 6. 稀疏矩阵SparseMatrix
 7. 字符串SeqString

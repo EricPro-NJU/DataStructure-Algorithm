@@ -10,10 +10,11 @@
 #define NJU_REVIEW_LINKLIST_H
 
 // Configurations
-typedef int T;
+
 
 #include <iostream>
 #include <cstdlib>
+#include "commons.h"
 using namespace std;
 
 class LinkList {

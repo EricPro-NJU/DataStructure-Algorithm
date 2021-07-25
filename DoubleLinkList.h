@@ -8,13 +8,12 @@
 #ifndef NJU_REVIEW_DOUBLELINKLIST_H
 #define NJU_REVIEW_DOUBLELINKLIST_H
 
-//configurations and macros
-typedef int T;
-#define FORWARD 0
-#define BACKWARD 1
+
+
 
 #include <iostream>
 #include <cstdlib>
+#include "commons.h"
 using namespace std;
 
 
