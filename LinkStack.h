@@ -27,6 +27,7 @@ protected:
     void revoke();
 public:
     LinkStack(){head = NULL; length = 0;}
+    ~LinkStack(){revoke();}
     bool push(T data);
     bool pop();
     T top();
