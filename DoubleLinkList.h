@@ -42,9 +42,9 @@ public:
     bool pushBack(T x);
     bool insertByLoc(int loc, T x, int direction);
     bool removeByLoc(int loc, int direction);
-    int searchLoc(T x);
+    int searchLoc(T x, int direction);
     T searchByLoc(int loc, int direction);
-    bool removeByData(T x);
+    bool removeByData(T x, int direction);
     bool empty();
     void clear();
 
@@ -55,11 +55,12 @@ public:
     void last() {current = current -> last;}
 
     //LinkList& operator = (LinkList& table);
-    T operator [] (int loc) {if(loc>=0) return searchByLoc(loc, FORWARD); else return searchByLoc(-loc-1, BACKWARD);}
+    //T operator [] (int loc) {if(loc>=0) return searchByLoc(loc, FORWARD); else return searchByLoc(-loc-1, BACKWARD);}
     //bool operator == (LinkList& table);
     //friend istream& operator >> (istream& in, LinkList& table);
     friend ostream& operator << (ostream& out, DoubleLinkList& table);
 };
 
+void DoubleLinkListDemo();
 
 #endif //NJU_REVIEW_DOUBLELINKLIST_H

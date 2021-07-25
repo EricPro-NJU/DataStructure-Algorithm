@@ -50,7 +50,7 @@ public:
     void next() {current = current -> next;}
 
     //LinkList& operator = (LinkList& table);
-    T operator [] (int loc) {return searchByLoc(loc);}
+    //T operator [] (int loc) {return searchByLoc(loc);}
     //bool operator == (LinkList& table);
     //friend istream& operator >> (istream& in, LinkList& table);
     friend ostream& operator << (ostream& out, LinkList& table);
