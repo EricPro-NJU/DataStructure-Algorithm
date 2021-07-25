@@ -1,8 +1,19 @@
 //
-// Created by gerui on 2021/7/25.
+// Created by RUIPENG on 2021/7/25.
 //
 
 #include "LinkStack.h"
+void LinkStackDemo(){
+    LinkStack st;
+    st.push(5);
+    st.push(3);
+    st.push(99);
+    st.push(108);
+    cout << st << endl;
+    cout<<st.top()<<endl;
+    st.pop();
+    cout<< st <<endl;
+}
 
 void LinkStack::revoke() {
     Node* p = head;
@@ -40,7 +51,7 @@ T LinkStack::top() {
 
 ostream &operator<<(ostream &out, LinkStack &table) {
     out << "StackInfo: Length " << table.length;
-    out << ". [";
+    out << ". TOP->[";
     LinkStack::Node* p = table.head;
     for(; p!=NULL; p=p->next) {
         out << p->val;

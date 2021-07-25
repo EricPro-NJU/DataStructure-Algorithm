@@ -38,5 +38,6 @@ public:
 
 };
 
+void LinkStackDemo();
 
 #endif //NJU_REVIEW_LINKSTACK_H
