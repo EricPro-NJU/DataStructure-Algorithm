@@ -10,8 +10,8 @@
 2. 单链表LinkList
 3. 双向循环链表DoubleLinkList
 4. （链式）栈LinkStack
-5. 队列Queue
-6. 稀疏矩阵SparseMatrix
+5. （顺序）队列SeqQueue
+6. 稀疏矩阵（三元组表示）SparseMatrix
 7. 字符串SeqString
 8. 广义表GenList
 9. 二叉树BinaryTree
