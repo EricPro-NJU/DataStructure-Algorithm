@@ -70,11 +70,20 @@ SparseMatrix SparseMatrix::transpose() {
 }
 
 SparseMatrix SparseMatrix::operator+(const SparseMatrix &m) {
-    return SparseMatrix();
+    /*if(row != m.row || col != m.col) {
+        cout << "Error! Invalid matrix size for addition." << endl;
+        return SparseMatrix();
+    }
+    SparseMatrix res(maxSize+m.maxSize, row, col);
+    int i = 0, j = 0;
+    while(i<num && j<m.num) {
+
+    }*/
+    return SparseMatrix(); //not implemented
 }
 
 SparseMatrix SparseMatrix::operator*(const SparseMatrix &m) {
-    return SparseMatrix();
+    return SparseMatrix(); //not implemented
 }
 
 SparseMatrix &SparseMatrix::operator=(const SparseMatrix &m) {

@@ -33,6 +33,7 @@ protected:
     int row, col, maxSize, num;
     TriTuple* matrix;
     void remove(int loc);
+    int position(TriTuple a, TriTuple b);
 public:
     SparseMatrix(int sz = defaultSize, int row = 0, int col = 0);
     SparseMatrix(const SparseMatrix& m);

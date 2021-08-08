@@ -12,7 +12,7 @@
 4. （链式）栈LinkStack
 5. （顺序）队列SeqQueue
 6. 稀疏矩阵（三元组表示）SparseMatrix
-7. 字符串SeqString
+7. 字符串String
 8. 广义表GenList
 9. 二叉树BinaryTree
 10. （中序）线索二叉树ThreadTree
