@@ -44,6 +44,7 @@ public:
     char operator[](int idx);
     friend ostream& operator << (ostream& out, String& str);
     //functions
+    int find(char* pattern);
     int find(String& pattern);
 
 };
