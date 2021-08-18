@@ -10,4 +10,5 @@ typedef int T;
 #define defaultSize 128
 #define max(a,b) ((a)>(b)?(a):(b))
 #define min(a,b) ((a)<(b)?(a):(b))
+#define INV -1
 #endif //NJU_REVIEW_COMMONS_H
